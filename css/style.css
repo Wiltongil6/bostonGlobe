@@ -1,0 +1,228 @@
+
+header{border-bottom: 1px black solid;}
+header li{
+    display: inline-block;
+    padding-right:5px ;
+    padding-left:9px ;
+    border-left: 1px black solid;
+    font-size: 13px;
+    font-weight: 800;
+}
+header img{
+    vertical-align: middle;
+    margin: 5px;
+}
+ul{
+    display: inline-block;
+    padding: 0%;
+}
+header section {
+    float: right;
+    line-height: 50px;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.blue-bt{
+    background-color: #005dc7;
+    height: 50px;
+    width: 200px;
+    color: white;
+    border-radius: 30px 0 0 30px;
+    padding-left: 15px;
+    margin-left:15px;  
+    vertical-align: middle;
+}
+.blue-bt p{
+    color: white;
+    width: 80%;
+    height: 5px;
+    line-height: 10px;
+    text-align: center;
+}
+.logo{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+nav{
+    border-top: black 1px solid ;
+    border-bottom: black 1px solid;
+    margin: 0 40px 35px 40px;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    padding-right:5px ;
+    padding-left:9px ;
+    border-left: 1px black solid;
+    font-size: 15px;
+}
+.red{color: red;
+    border: none;
+}
+
+/*ediciones del main empiezan aqui*/
+
+.main-content {
+    display: inline-block;
+    height:650px;
+    width: 75%;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: black;
+}
+article{
+    width: 260px;
+    height: 650px;
+    float: right;
+    color: white;
+    box-sizing: border-box;
+    text-align: left;
+}
+.main-content> h5,h1,h3{color:#f07f6a;}
+.main-content h1 {
+    font-size: 30px;
+    margin: 0;
+}
+.main-content p {color: white;}
+
+/* aside que esta en la derecha empieza aqui*/
+
+.aside-right{
+    box-sizing: border-box;
+    float: right;
+    width: 25%; 
+}
+h4{margin-left: 10px;
+    display: inline;
+}
+hr {
+    vertical-align: middle;
+    width:280px;
+    display: inline-block;
+}
+.aside-content-2{
+    padding: 15px;
+}
+.aside-content-2 h5{
+    color: darkred;
+    margin: 10px 0 10px 0;
+}
+.aside-content-2 h2{
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+.s-box{
+    display: inline-block;
+    margin-left: 15px;
+}
+.s-box section{
+    width: 160px;
+} 
+.s-box h5{
+    color: darkred;
+    margin: 15px 0 10px 0;
+}
+.s-box span{
+    font-weight: 800;
+    font-size:15px;
+}
+.aside-content-3{margin: 25px 10px 10px 20px;   
+}
+.aside-content-3 hr{width: 100%;
+}
+.aside-content-3 h1 {
+    color: black;
+    font-size: 22px;
+    margin: 10px 0 0 0;
+}
+/*ediciones del segundo main empiezan aqui
+              colunas left y center */
+
+.main-content-2{
+    width: 75%;
+    box-sizing: border-box;
+}
+.main-content-2 hr{
+    width: 95%;
+    margin:30px 0 30px 0;
+}
+
+.column-left{ 
+    border-right: black 1px solid;
+    width: 30%;
+    margin: 15px;
+    padding-right: 5px ;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.column-left .title-1{
+    color: black;
+    font-size: 26px;
+    margin: 0;
+}
+.column-left h1 {
+    color: black;
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+    display: inline;
+}
+.column-left p {
+    color: black;
+    margin: 10px 0 10px 0;
+}
+.content-w-img img{
+    float: right;
+}
+.column-left li{
+    font-weight: 700;
+    padding: 5px;
+    list-style: square;
+    list-style-position: inside;
+}
+ul ::marker{
+    color: brown;
+    font-size: 30px;
+}
+.column-center{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 750px;
+    margin-top: 15px;
+    font-size: 17px;
+}
+.column-center h2 {
+   display: inline-block;
+   color: black;
+   font-size: 20px;
+   margin: 0;
+} 
+.column-center hr{
+    display: inline-block;
+    width: 87%; 
+    margin: 14px 0 20px 5px;
+}
+.column-center h1{ 
+    color: black;
+    font-size: 25px;
+    margin: 0;
+}
+.column-center p, h6{margin: 2px 0 10px 0;}
+.column-center li{
+    font-weight: 700;
+    padding: 5px;
+    list-style: square;
+    list-style-position: inside;
+}
+.mini-box{
+    display: inline-block;
+    width: 245px;
+}
+.mini-box h3{
+    display: inline-block;
+    color: black;
+    margin-top: 5px;
+}
